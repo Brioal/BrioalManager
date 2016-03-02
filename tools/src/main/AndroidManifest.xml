@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.brioal.tools">
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+        <activity
+            android:name=".codes.CodeDetailActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".summary.SummaryActivity"
+            android:label="@string/title_activity_summary"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".codes.CodesListActivity"
+            android:label="@string/title_activity_codes_list"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
